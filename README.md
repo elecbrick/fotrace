@@ -4,10 +4,12 @@ It extract the PC, instruction and Wishbone transactions from a simulation wavef
 This tool was created debugging an application
 
 ## Usage
+```
 fotrace [-c <csr.csv>] [-e <bios.elf>] [-o <output.log>] [dump.vcd]
   -c  Use I/O registers names and locations from a litex compatable spreadsheet.
   -e  Load function and variable names and locations from an elf file.
   -o  Write to outfile instead of standard output.
+```
 Standard Input is used for the waveform dump is one is not specified on the command line.
 
 ## Caveats
